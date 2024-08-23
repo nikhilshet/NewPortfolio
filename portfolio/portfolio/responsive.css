@@ -1,0 +1,481 @@
+
+@media (max-width : 1416px){
+    .card{
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        height: 200px;
+        width: 300px;
+        /* border-radius: 20px ; */
+        background-color: transparent;
+        border: 1px rgba(211, 211, 211, 0.253) solid;
+        backdrop-filter: blur(1px);
+        text-align: center;
+        padding: 10px;
+        font-size: 1.2rem;
+        margin: 20px;
+        color: white;
+    }
+    .name{
+        font-size: 4rem;
+        width: 60%;
+
+    }
+    .profile{
+        font-size: 3.2rem;
+        width: 60%;
+    }
+    .aboutText{
+        font-size: 1rem;
+    }
+       .skillBox{
+        width: 5rem;
+        height: 2.5rem;
+        border: 1px solid rgba(255, 255, 255, 0.281);
+        margin : 10px;
+        color: rgb(255, 255, 255); 
+        /* border-radius: 10px; */
+        box-shadow: 5px 5px rgb(255, 255, 255);
+        font-size: 0.7rem;
+     }
+     .home{
+        height: 100vh;
+        width: 100%;
+        position: relative;
+        padding-left: 10%;
+        align-content: center;
+     }
+
+     .btnCon{
+        margin-right: 10%;
+     }
+     .navButtons{
+        font-size: 0.8rem;
+     }
+     
+}
+
+
+@media (max-width : 1055px){
+    .home{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        padding-left: 0%;
+    }
+   
+    .name{
+        width: 100%;
+        font-size: 4.5rem;
+        
+    }
+    .profile{
+        font-size: 3.4rem;
+        width: 100%;
+        
+    }
+
+    .cardCon{
+        display: grid;
+        grid-template-columns: repeat(2 , 1fr);
+        padding: 50px;
+        place-items: center;
+    }
+    .card{
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        height: 200px;
+        width: 300px;
+        /* border-radius: 20px ; */
+        background-color: transparent;
+        border: 1px rgba(211, 211, 211, 0.253) solid;
+        backdrop-filter: blur(1px);
+        text-align: center;
+        padding: 10px;
+        font-size: 1.2rem;
+        margin: 20px;
+        color: white;
+    }
+   
+    .nav{
+        visibility: hidden;
+    }
+    .toggleButton{
+        visibility: hidden;
+    }
+    .aboutText{
+        font-size: 0.8rem;
+    }
+    .resNav{
+        display: block;
+        
+    }
+    .slidingNav{
+        display: flex;
+        width: 400px;
+        justify-content: center;
+        transition: right 0.5s ease;
+
+    }
+    .slidingNav > .navList{
+        font-size: 2rem;
+        margin-top: 30%;
+        
+    }
+    .navList  li{
+        
+        margin-top: 20%;
+    }
+    .inputCon{
+       
+        width: 500px;
+    
+    }
+    .inputBox{
+
+        margin: 10px;
+        
+    }
+}
+
+@media(max-width : 715px){
+    .cardCon{
+        display: flex;
+        flex-direction: column;
+        padding: 50px;
+        place-items: center;
+    }
+    .name{
+        align-content: center;
+        justify-content: center;
+        font-size: 3rem;
+    }
+    .profile{
+        font-size: 2.5rem;
+    }
+    .aboutText{
+        font-size: 0.7rem;
+    }
+    .skillBox{
+        width: 4rem;
+        height: 2rem;
+        border: 1px solid rgba(255, 255, 255, 0.281);
+        margin : 10px;
+        color: rgb(255, 255, 255); 
+        /* border-radius: 10px; */
+        box-shadow: 5px 5px rgb(255, 255, 255);
+        font-size: 0.7rem;
+     }
+     .home{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+     padding-left: 0%;
+     }
+
+     .resNav{
+        display: block;
+    }
+    .slidingNav{
+        width: 200px;
+    }
+    .slidingNav > .navList{
+        font-size: 1.5rem;
+        margin-top: 60%;
+        
+    }
+    .inputCon{
+       
+        width: 400px;
+    
+       
+    }
+    
+    .inputBox{
+
+        margin: 10px;
+        
+    }
+    .card{
+        
+        height: 200px;
+        width: 300px;
+      
+    }
+  
+}
+
+
+@media (max-width :600px){
+    .underlineCss{
+        text-decoration: underline solid 3px ;
+        text-decoration-color: #df9aff;
+        text-underline-offset: 10px;
+    }
+    .underlineSm{
+        text-decoration: underline solid 1px ;
+        text-decoration-color: #df9aff;
+        text-underline-offset: 5px;
+    }
+    .home{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    .nav{
+        visibility: hidden;
+    }
+    .toggleButton{
+        visibility: hidden;
+    }
+    .name{
+        font-size: 3rem;
+    }
+    .profile{
+        font-size: 2.5rem;
+    }
+
+    .about{
+        
+        grid-template-columns: 1fr;
+        grid-template-rows: 80vh 20vh;
+        height: 100vh;
+        background-color: rgba(11, 13, 22 , 0.5);
+        backdrop-filter: blur(10px);
+        position: relative;
+        display: grid;
+        background-attachment: fixed;
+    }
+    
+    .aboutCon{
+        grid-column: 1/4;
+        grid-row: 1/2 ;
+        padding: 5%;
+    }
+    .aboutH2{
+        margin: 0;
+        font-size: 1.5rem;
+        padding-top: 1.5rem;
+        padding-bottom: 1rem ;
+        margin-bottom: 20px;
+    }
+    .aboutText{
+
+        font-size: 0.8rem;
+        font-weight: 300;
+    }
+
+    .skill{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 5%;
+        margin-bottom: 50px;
+     }
+     
+     .skillBox{
+        width: 4rem;
+        height: 2rem;
+        border: 1px solid rgba(255, 255, 255, 0.281);
+        margin : 10px;
+        color: rgb(255, 255, 255); 
+        /* border-radius: 10px; */
+        box-shadow: 5px 5px rgb(255, 255, 255);
+        font-size: 0.7rem;
+     }
+     
+
+     .projectH2{
+        margin: 0;
+        font-size: 1.5rem;
+        padding-top: 1.5rem;
+        padding-bottom: 1rem ;
+    }
+
+    .cardCon{
+        display: flex;
+        flex-direction: column;
+        padding: 50px;
+        place-items: center;
+    }
+    .card {
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        height: 250px;
+        width: 300px;
+        /* border-radius: 20px ; */
+        background-color: transparent;
+        border: 1px rgba(211, 211, 211, 0.253) solid;
+        backdrop-filter: blur(1px);
+        text-align: center;
+        padding: 10px;
+        font-size: 1.2rem;
+        margin: 20px;
+        color: white;
+        
+    }
+    .card > i{
+        position: absolute;
+        right: 5%;
+        bottom: 18%;
+        transition: 0.3s ease;
+    }
+
+    .contactH2{
+        margin: 0;
+        font-size: 1.5rem;
+        padding-top: 1.5rem;
+        padding-bottom: 1rem ;
+    }
+    .inputCon{
+       
+        width: 400px;
+       
+       
+    }
+    .inputBox{
+        margin: 10px;
+        
+    }
+    .message{
+        width: 100%;
+        height: 100px;
+        padding: 10px; 
+        border: 1px solid #666; 
+        /* border-radius: 5px;  */
+        overflow-y: scroll;
+        scrollbar-width: none;
+        -ms-overflow-style: none;
+        box-shadow: 5px 5px rgb(255, 255, 255);
+    }
+    .inputCon label{
+        text-align: center;
+        font-size: 16px;
+        color: white;
+        margin: 10px;
+    }
+    .resNav{
+        display: block;
+    }
+    .slidingNav{
+        width: 200px;
+    }
+    .slidingNav > .navList{
+        font-size: 1.5rem;
+        margin-top: 60%;
+        
+    }
+    .inputCon{
+       
+        width: 300px;
+    
+       
+    }
+} 
+
+@media (max-width :500px) {
+    .about{
+        grid-template-columns: 1fr;
+        grid-template-rows:  10vh 70vh 20vh;
+        height: 100vh;
+        background-color: rgba(11, 13, 22 , 0.5);
+        backdrop-filter: blur(10px);
+        position: relative;
+        display: grid;
+        background-attachment: fixed;
+    }
+    .aboutH2{
+        grid-row: 1/2;
+        margin: 0;
+        font-size: 1.5rem;
+        padding-top: 1.5rem;
+        padding-bottom: 1rem ;
+    }
+    .aboutCon{
+        padding: 5%;
+        grid-row: 2/3;
+    }
+   
+    .aboutText{
+        font-size: 0.8rem;
+        font-weight: 300;
+    }
+
+    .skill{
+        grid-row: 3/4;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 5%;
+        margin-bottom: 20px;
+     }
+     
+     .skillBox{
+        width: 3.4rem;
+        height: 1.7rem;
+        border: 1px solid rgba(255, 255, 255, 0.281);
+        margin : 10px;
+        color: rgb(255, 255, 255); 
+        /* border-radius: 10px; */
+        box-shadow: 5px 5px rgb(255, 255, 255);
+        font-size: 0.5rem;
+     }
+     .inputCon{
+        background: rgb(255,255,255);
+        background: linear-gradient(45deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.04233412114845936) 48%, rgba(255,255,255,0) 100%);
+        display: flex;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        justify-items: center;
+        /* height: 600px; */
+        width: 300px;
+        backdrop-filter: blur(10px);
+        border: solid 2px rgba(255, 255, 255, 0.26);
+        /* border-radius: 20px; */
+        flex-direction: column;
+       
+    }
+    .inputBox{
+       
+        margin: 10px;
+       
+    }
+    .message{
+        width: 100%;
+        height: 100px;
+        padding: 10px; 
+        border: 1px solid #666; 
+        /* border-radius: 5px;  */
+        overflow-y: scroll;
+        scrollbar-width: none;
+        -ms-overflow-style: none;
+        box-shadow: 5px 5px rgb(255, 255, 255);
+    }
+    .inputCon label{
+        text-align: center;
+        font-size: 16px;
+        color: white;
+        margin: 10px;
+    }
+    .resNav{
+        display: block;
+    }
+    .slidingNav{
+        width: 200px;
+    }
+    .slidingNav > .navList{
+        font-size: 1.5rem;
+        margin-top: 60%;
+        
+    }
+}
+@media (max-width :360px){
+    .aboutText{
+        font-size: 0.8rem;
+        font-weight: 300;
+    }
+}
